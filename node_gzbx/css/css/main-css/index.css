@@ -1,0 +1,83 @@
+/*最外围面板*/
+.addRepairPanel{
+	margin-left: 15%;
+	width:70%;
+}
+/*面板title*/
+.panelWrapper_title{
+	height: 30px;
+	background-color: #1558a6;
+	color : #fff;
+	font-size: 14px;
+	line-height: 30px;
+	padding-left: 20px;
+}
+.accessoriesLabel{
+	width: 62px;
+	float: left;
+}
+/*报修人信息*/
+.repairInfo{
+	list-style-type: none;
+	display:inline-block;
+}
+.repairInfo li{
+	display:inline-block;
+	float: left;
+	padding-left: 20px;
+}
+.attention{
+	padding-left: 5px;
+	color: red;
+}
+#repairInfoForm input{
+	border-radius: 3px;
+	border:1px solid #95b8e7;
+}
+/*提示信息样式*/
+.fontStyle{
+	color: red;
+	font-size: 16px;
+	display: inline-block;
+	margin:10px 5px 10px 5px;
+}
+/*问题列表面板*/
+.questionListPanel{
+	width: 100%;
+}
+#addQuestionTable .datagrid-header-row{
+	margin-left: 20px;
+}
+
+/*上传进度*/
+.uploadProgress{
+	clear: both;
+}
+/*添加问题面板表单*/
+#addQuestionForm ul{
+	list-style-type: none;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+#addQuestionForm ul li{
+	padding-top: 20px;
+}
+.line{
+	display: inline-block;
+}
+.repair_content{
+	border: 1px solid #95b8e7;
+    margin: 0;
+    padding: 0px 3px;
+    line-height: 20px;
+    vertical-align: middle;
+    border-radius: 5px;
+    font-family: '微软雅黑';
+}
+.formBtn{
+	float: right;
+	margin-right: 70px;
+}
+#upload_dialog ul{
+	list-style-type: none;
+}

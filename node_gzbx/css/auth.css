@@ -1,0 +1,67 @@
+body{
+	font-size: 12px;
+	font-family: 'microsoft yahei';
+	color: #fff;
+}
+/* 树形菜单 */
+
+/*左侧菜单栏样式设置*/
+.slidemenu{
+	background: #f4f4f4;
+}
+.rm_slidmenu{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.rm_slidmenu ul li a{
+	text-decoration: none;
+	color: #000;
+}
+.rm_slidmenu ul li a:focus{
+	color: red;
+}
+
+/*--------------------------------------------------权限管理--------------------------------------*/
+
+.authMessage,  /*权限信息面板*/
+.configureSource{   /*资源配置面板*/
+	margin: 0;
+	padding-top: 10px;
+}
+.configureSource{ /*资源配置面板*/
+	padding: 0;
+}
+.authDescrib{  /*权限描述input框样式设置*/
+	width: 450px;
+	margin-right: 20px;
+}
+.panelwrapper li, /*整个弹框下 li样式*/
+.searchShow li, /*整个搜索条件下 li样式*/
+.messageSearchIndex li,  /* 消息管理 整个搜索条件下 li样式*/
+.emailTestDialog li{    /* 消息管理 弹框 li样式*/
+	text-decoration: none;
+	display: inline-block;
+	margin-left: 20px;
+}
+.searchShow li{
+	margin-left:-10px;
+}
+
+#sourcesTable,
+#editAuthTable,
+#viewAuthTable{
+	border: none;
+}
+
+
+/*--------------------------------------------------消息管理--------------------------------------*/
+
+.email,
+.account,
+.user-name{
+	width: 135px;
+}
+.messageSearchIndex li{
+	margin-left: 10px;
+
+}

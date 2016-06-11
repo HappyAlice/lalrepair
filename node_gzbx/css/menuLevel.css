@@ -1,0 +1,46 @@
+body{
+	font-family: "microsoft yahei";
+}
+
+/*面板居中*/
+.wapContent{
+	width: 950px;
+	margin: 10px auto 0 auto;
+}
+
+/*面板样式*/
+.myHeader{
+	border-top: 0;
+	background: #1558a6;
+	padding-left: 21px;
+	height: 19px;
+}
+/*第一个面板的内容样式*/
+#menuLevelSearch{
+	/* padding: 0; */
+	/* border-bottom: 1px solid #ddd; */
+	float:left;
+	diaplay:inline-block;
+	
+}
+#cPrevMenu{
+	height:40px;
+
+}
+#menuLevelInput{
+	width: 198px;
+	height: 20px;
+}
+
+.menuName label{
+	float: left;
+    width: 70px;
+    line-height: 20px;
+    padding-right: 5px;
+    text-align: right;
+}
+#btn{
+	display:inline-block;
+	float:right;
+	margin-right:60px;
+}

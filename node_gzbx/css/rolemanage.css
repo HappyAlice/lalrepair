@@ -1,0 +1,490 @@
+
+/*----------------------------------------公共样式-----------------------*/
+body{
+	font-family: "microsoft yahei";
+}
+
+/*设置li的样式*/
+.searchIndex li,
+.userUpdate li,
+.selectTime li,  /*评价页面  处理时间*/
+.scorelist li,
+.panelwrap li,    /*评价页面  满意度评价*/
+.problemEditDialog,   /*问题编辑对话框*/
+.mtSearchIndex li,   /*我的任务页面的搜索框*/
+.deparctureDialog li, /*任务分派对话框*/
+#complainHistory li{    /*问题列表详情*/
+	list-style: none;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+/*设置不同的input框宽度*/
+.input_larg{
+	width: 135px;
+}
+.input_xmid{
+	width: 100px;
+}
+.input_mid{
+	width: 80px;
+}
+.input_smal{
+	width: 65px;
+}
+.input_xs{
+	width: 40px;
+}
+
+/*-----------------------------------S------管理员角色管理页面-----------------------*/
+
+/*左侧菜单栏样式设置*/
+.slidemenu{
+	background: #f4f4f4;
+}
+.rm_slidmenu{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.rm_slidmenu ul li a{
+	text-decoration: none;
+	color: #000;
+}
+.rm_slidmenu ul li a:focus{
+	color: red;
+}
+
+/*中间部分的查询条件的样式设置*/
+.searchIndex,
+#mtSearchIndex{
+	background: #F4F4F4;
+	border-bottom: 1px solid #ddd;
+}
+
+/*.userUpdate li{
+	padding: 5px;
+}*/
+
+.searchIndex ul{
+	margin: 0;
+	padding: 5px 10px;
+}
+.rm_search_add,
+.rm_add_success{
+	width: 17px;
+	height: 17px;
+	position: relative;
+	top: 5px;
+	background: url(../images/hidecondition.png) center no-repeat;
+}
+.rm_add_success{
+	background: url(../images/showcondition.png) center no-repeat;
+
+}
+
+/*设置表格的内距*/
+#searchHide img{
+	position: relative;
+	top: 5px;
+}
+
+ /*设置弹出框的样式*/
+.userUpdate label{
+	margin-right: 5px;
+}
+.userUpdate input,
+.rmSelected,
+select,
+.save{
+	width: 130px;
+	border: 1px solid #95B8E7;
+	border-radius: 3px;
+}
+.rmSelected,
+.save{
+	display: inline-block;
+	width: 40px;
+	color: #000;
+	text-align: center;
+	text-decoration: none;
+}
+#statusAble,
+#statusDisAble{
+	width: 20px;
+	margin-left: 20px;
+}
+.save{
+	width: 70px;
+	margin-left: -10px;
+	line-height: 20px;
+}
+.userUpdate ul{
+	padding:0;
+}
+.userUpdateBtn{
+	text-align: center;
+}
+
+
+/*--------------------------------------E------管理员角色管理页面-----------------------*/
+
+
+
+/*--------------------------------------S------报修人评价页面---------------------------*/
+/*==S   设置整个评论框的大体样式*/
+.panelwrap{  
+	width: 950px;
+	margin: 10px auto 0 auto;
+}
+.scorelist{
+	font-size: 10px;
+	padding-left:  20px;
+}
+.scorelist ul{
+	display: inline-block;
+	padding-left: 0px;
+}
+/*==E   设置整个评论框的大体样式*/
+
+/*==S   设置评论打分部分样式*/
+.tips,
+.worn{  /*worn为处理记录页面的小提示*/
+	display: inline-block;
+	color: red;
+	margin-left: 100px;
+}
+.worn{
+	margin-left: 0;
+	font-size: 12px;
+}
+.com li{
+	display: block;
+}
+.left,
+.right{
+	width: 400px;
+}
+.right{
+	float: right;
+	margin-right: 50px;
+}
+.left li,
+.right li{
+	float: right;
+	margin-top: 5px;
+	margin-left: 30px;
+}
+.com_content{
+	margin-left: 30px;
+}
+.suggest{
+	float: left;
+	margin-right: 5px;
+}
+.sug_content{
+	width: 780px;
+	height: 80px;
+	overflow-y: scroll;
+	border: 1px solid #95B8E7;
+	border-radius:5px;
+}
+
+.com_linkbutton{
+	float: right;
+	margin-right: 45px;
+	margin-bottom: 15px;
+}
+/*==E   设置评论打分部分样式*/
+/*------------------------------------------S------报修人评价页面----------------------------*/
+
+
+
+/*==S   设置问题详情部分样式*/
+.problemDetail{
+	margin-bottom: 3px;
+	margin-left: 28px;
+}
+.problemDetail input{
+	border: 1px solid #95B8E7;
+	border-radius: 3px;
+	width: 210px;
+}
+.evaluateEnsolure{
+	margin-top:10px;
+}
+.evaluateEnsolure input{
+	width:770px;
+}
+/*==E   设置问题详情部分样式*/
+
+
+/* ==S  修改评论框panel中title的背景色*/
+.changeColor{
+	background: #1558a6;
+	border-top: none;
+	padding-left: 25px;
+}
+.changeColor .panel-title{
+	color: #fff;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-weight: normal;
+}
+/* ==E  修改评论框panel中title的背景色*/
+
+/*===S 设置打分的input框鼠标样式为小手*/
+#dealTime input,
+#comment input{
+	cursor: pointer;
+}
+
+/*===E 设置打分的input框鼠标样式为小手*/
+
+/*------------------------------------------E------报修人评价页面----------------------------*/
+
+
+
+/*--------------------------------------------S----处理记录页面----------------------------------*/
+
+/*让toolbar的小按钮移动到右边*/
+#recordToolbar,
+#newRecordbtn,
+#refuseDelaybtn,
+.dealComplainbtn{
+	padding-right:10px;
+	text-align:right;
+}
+.dealComplainbtn{
+	margin-right: 20px;
+}
+
+/* S记录内容*/
+.add_content{
+	margin-top: 30px;
+}
+.add_content li,
+.refuseReason li,
+.docomplain li{
+	list-style: none;
+}
+.add,
+.deal-result{
+	float: left;
+	margin-right: 5px;
+}
+.deal-result{
+	margin-top: 55px;
+}
+.content{
+	width: 500px;
+	height: 120px;
+	border: 1px solid #95B8E7;
+	border-radius: 3px;
+}
+/* E记录内容*/
+
+/*  E 处理记录页面   */
+/*--------------------------------------------E----处理记录页面----------------------------------*/
+
+
+
+
+/*--------------------------------------------S----申请延期----------------------------------*/
+.delay{
+	font-size: 12px;
+}
+.delay ul li{
+	margin-bottom: 10px;
+}
+.delay ul li label{
+	margin-right: 3px;
+}
+
+.delaytime,
+.enclosurename{
+	width:50px;
+	border:1px solid #95B8E7;
+	border-radius: 3px;
+}
+.delay textarea,
+.enclosureupdate{
+	width:800px; 
+	height:120px;
+	border: 1px solid #95B8E7;
+	border-radius: 3px;
+}
+.introduction{
+	float: left;
+	margin-top: 50px;
+}
+.update{
+	float: left;
+	margin-top: 30px;
+}
+.enclosurename{
+	width: 800px;
+}
+.enclosureupdate{
+	border: 1px dashed #ccc;
+}
+.enclosureupdate{
+	height: 80px !important;
+	cursor: pointer;
+}
+
+#delayBtn{
+	display: block;
+	padding-right: 40px;
+	text-align: right;
+}
+
+/*--------------------------------------------E----申请延期----------------------------------*/
+
+
+/*--------------------------------------------S----我的任务----------------------------------*/
+.welldownrecord{
+	margin-top: 20px;
+}
+.donestyle{
+	width: 80px;
+}
+.wellDoneContent{
+	width: 350px;
+	height: 80px;
+	border: 1px solid #95B8E7;
+	border-radius: 3px;
+}
+#wellDonebtn{
+	padding-right: 30px;
+	text-align: right;
+	margin-top: 10px;
+}
+
+.problemEditDialog li{
+	margin-top: 10px;
+}
+.problemEditDialog li input{
+	width: 210px;
+}
+#problemEditbtn{
+	text-align: center;
+}
+#problemEditDialog ul,
+#wellDoneDialog ul{
+	margin-left : 40px;
+	margin-bottom : 10px;
+}
+.mtSearchIndex{
+	margin-left: 15px;
+}
+.mtSearchIndex ul{
+	margin: 5px;
+}
+
+/*----------------------------------处理延期--------------------------*/
+.refuseReason .reason{
+	float: left;
+	margin-top: 40px;
+}
+.refuseDelayrecord{
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+.refuseDelayContent{
+	width: 480px;
+	height: 120px;
+	border: 1px solid #95B8E7;
+	border-radius: 3px;
+	margin-left: 3px;
+}
+
+/*----------------------------------任务派发--------------------------*/
+
+/*设置受理报修 和 报修列表 的input框的大小*/
+.deparctureAccept li input,
+.deparctureRepairList li input{
+	width: 140px;
+}
+.deparctureAccept #limited{
+	width: 100px;
+}
+#repairTime,
+#acceptTime{
+	width: 160px;
+}
+/*设置 使得两个按钮移动到右边*/
+.deparctureLinkBtn{
+	text-align: right;
+	margin-top: 20px;
+}
+
+/*设置任务分派弹框的样式*/
+.deparctureDialog li{
+	margin-bottom: 10px;
+}
+#depDealMen{
+	width: 200px;
+	margin-left: 3px;
+}
+.deparctureDialog textarea{
+	width: 355px;
+	height: 100px;
+	border: 1px solid #95B8E7;
+	border-radius: 5px;
+}
+.lederMessage{
+	float: left;
+	margin-top: 45px;
+	margin-left: -8px;
+	margin-right: 3px;
+}
+.depDialogBtn{
+	text-align: right;
+	margin-right: 40px;
+}
+
+#depMenSear,
+#responMenSear{
+	width: 682px;
+}
+
+/* 投诉历史 */
+.docomplain{
+	margin:15px 30px;
+}
+
+#complainHistory label{
+	margin-right: 5px;
+}
+.complainReasonLabel{
+	float: left;
+	margin-top: 30px;
+}
+textarea.complainReason{
+	width:800px;
+	height:80px;
+	border:1px solid #95B8E7;
+	border-radius:3px;
+}
+.complainInputs{
+	width:125px;
+	border:1px solid #95B8E7;
+	border-radius:3px;
+}
+
+
+/* 弹框textarea字数限制 验证样式 */
+
+.ratangle{
+	position: relative;
+}
+
+.count{
+	position: absolute;
+	right: 90px;
+	bottom: 10px;
+	font-size: 12px;
+	color: #ccc;
+}
+
+

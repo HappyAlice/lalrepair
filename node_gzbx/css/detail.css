@@ -1,0 +1,177 @@
+body{
+	font-family: "microsoft yahei";
+}
+/*居中*/
+.wapContent{
+	width: 950px;
+	margin: 10px auto 0 auto;
+}
+ul{
+	margin-left: 10px;
+	margin-top: 20px;
+}
+/*label样式*/
+.labelStyle,
+.delayHistoryLabel{
+	float: left;
+    width: 70px;
+    font-size: 12px;
+    line-height: 20px;
+    padding-right: 5px;
+    text-align: right;
+    margin-left: 10px;
+}
+.delayHistoryLabel{
+	width: 100px;
+}
+/*li横排*/
+.reportForm {
+	margin-bottom: 10px;
+	display: inline-block;
+}
+.reportForm input{
+	border: 1px solid #95B8E7;
+	border-radius: 3px;
+}
+/*header样式*/
+.myHeader{
+	font-size: 14px;
+	border-top: 0;
+	background: #1558a6;
+	padding-left: 20px;
+	height: 19px;
+}
+/*header标题样式*/
+.myHeader .panel-title{
+	font-weight: normal;
+	font-size: 14px;
+	color: #FFF;
+	line-height: 19px;
+}
+#questionDetail li input{
+	width: 204px;
+}
+#description{
+    width: 807px;
+    height: 100px;
+    overflow-y: scroll;
+    border: 1px solid #95b8e7;
+    margin: 0;
+    padding: 0px 3px;
+    line-height: 20px;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+/*处理记录*/
+#record ul{
+	border-top: 1px solid #95b8e7;
+	margin:0;
+    padding: 10px 20px;
+    height: auto;
+}
+#record ul:first-child{
+	border: none;
+}
+#record li{
+	margin-top: 10px;
+	display: inline-block;
+}
+#record li a{
+	margin-left: 10px;
+}
+#record input{
+	width: 120px;
+}
+.reportContent{
+	width: 650px;
+    height: 70px;
+    border: 1px solid #95b8e7;
+    margin: 0;
+    padding: 0px 3px;
+    line-height: 20px;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+/*满意度评价*/
+#evaluate ul{
+	margin-left: 30px;
+	margin-top: 26px;
+	margin-right:50px;
+	display: inline-block;
+}
+#evaluate ul li{
+	text-align: right;
+	margin-bottom: 10px;
+}
+#evaluate li input{
+	width: 150px;
+}
+.textareaStyle{
+	width: 800px;
+    height: 98px;
+    border: 1px solid #95b8e7;
+    margin: 0;
+    padding: 0px 3px;
+    line-height: 20px;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+/*处理工时下的样式*/
+#handleTime ul{
+	margin-left: 20px;
+}
+#handleTime input{
+	width: 100px;
+}
+/*投诉历史*/
+.complainTime{
+	width: 140px;
+}
+.complainResult{
+	width: 300px;
+}
+.complainAdvice{
+	width: 750px;
+    height: 100px;
+	border: 1px solid #95b8e7;
+    margin: 0;
+    padding: 0px 3px;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+/*延期历史*/
+
+#delayHistory li input{
+	width: 130px;
+}
+.refuseTextarea,
+.reasonTextarea{
+	width: 802px;
+    height: 100px;
+	border: 1px solid #95b8e7;
+    margin: 0;
+    padding: 0px 3px;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+.reasonTextarea{
+	width: 765px;
+}
+.borderBottom{
+	border-bottom:1px solid #95B8E7;
+	margin-left:0;
+}
+
+/*原始问题详情*/
+#problemHistory ul{
+	margin: 16px 0 0 0;
+}
+#problemHistory li{
+	display: inline-block;
+	margin-left: 35px;
+}
+#problemHistory li input{
+	width: 210px;
+}

@@ -1,0 +1,69 @@
+body{
+	font-family: "microsoft yahei";
+}
+
+
+/*左侧菜单栏样式设置*/
+.slidemenu{
+	background: #f4f4f4;
+}
+.rm_slidmenu{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.rm_slidmenu ul li a{
+	text-decoration: none;
+	color: #000;
+}
+.rm_slidmenu ul li a:focus{
+	color: red;
+}
+
+/*中间部分的查询条件的样式设置*/
+#sourceSearch{
+	padding: 0;
+	background: #F4F4F4;
+	border-bottom: 1px solid #ddd;
+}
+.searchBar{
+	margin: 0;
+	padding: 10px;
+}
+/*设置查询的input框宽度*/
+#sourceInput{
+	width: 148px;
+	height: 20px;
+}
+
+/*按钮组*/
+#menuButton{
+	padding: 1px 10px;
+	background: #F4F4F4;
+	border-top: 1px solid #ddd;
+}
+.btnGroup{
+	display: inline-block;
+}
+/*菜单配置*/
+.labelStyle{
+    float: left;
+    width: 70px;
+    line-height: 20px;
+    padding-right: 5px;
+    text-align: right;
+}
+.menuUl{
+	padding: 10px 20px;
+    height: auto;
+}
+.menuUl li{
+	display: block;
+    margin: 10px 10px 0px 0px;
+}
+.menuUl a{
+	margin: 10px 10px 0px 0px;
+	float: right;
+}
+.menuUl input{
+	width: 200px;
+}

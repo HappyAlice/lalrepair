@@ -1,0 +1,133 @@
+﻿/*公用样式*/
+.displayTrue {
+	display: block;
+}
+
+.displayFalse {
+	display: none;
+}
+body{
+	font-size: 14px;
+	font-family: "microsoft yahei";
+}
+
+/*	S==头部导航样式	*/
+.top_navi{
+	height:80px;
+	width:100%;
+	border-bottom:5px solid #1558a6;
+	background:#1558a6;
+}
+.top_navi h1{
+	float: left;
+	
+}
+.top_navi h1 a{
+	text-decoration:none;
+	font-size:32px;
+	margin-left:25px;
+	font-weight:normal;
+	color:#fff;
+	position:absolute;
+	top:25px;
+
+}
+
+.top_navi ul{
+	width:auto;
+	float:right;
+	padding-top:5px;
+	margin: 0;
+}
+.top_navi ul li{
+	width:100px;
+	float:left;
+	text-align:center;
+	margin-left:8px;
+	list-style: none;
+}
+
+.top_navi ul li a{
+	width:100px;
+	height:70px;
+	color: #fff;
+	float:left;
+	background:#2d8bef;
+	text-decoration: none;
+}
+
+.top_navi ul li a:hover{
+	background:#1558a6;
+}
+a.setting:hover{
+	background:#2d8bef !important;
+}
+/*	E==头部导航样式	*/
+
+/* S==二级菜单 */
+#myProblem,
+#updatePwd{
+	width: 100px;
+	height: 30px;
+	line-height:30px;
+	position: fixed;
+	z-index:10000;
+	top:75px;
+	padding:0;
+	
+}
+
+/*S==二级菜单 */
+
+
+/*	S==密码弹框样式	*/
+.userUpdate{
+	margin: 18px 10px;
+}
+.userUpdate ul{
+	margin-left:50px;
+}
+.userUpdate li{
+	margin-top: 10px;
+}
+.userUpdate input{
+	width: 150px;
+	height: 20px;
+	margin-left: 5px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+.setpassword label{
+	display: inline-block;
+	margin-left: 25px;
+	margin-right: 3px;
+}
+.setpassword input{
+	width: 200px;
+	border: 1px solid #95B8E7;
+	border-radius: 2px;
+}
+.setpassword li{
+	margin-top: 12px;
+}
+.btnsure{
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 50%;
+	transform: translate(-50%);
+}
+.pwdTips{
+	display: inline-block;
+	font-size: 12px;
+	color: red;
+	margin: 20px 54px;
+}
+#setNewPwd li{
+	list-style:none;
+}
+
+/*	E==密码弹框样式	*/
+/*
+.nostyle{
+	background-color: transparent;
+}*/

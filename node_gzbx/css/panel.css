@@ -1,0 +1,58 @@
+body{
+	font-family: "微软雅黑";
+}
+.wapContent{
+	width: 950px;
+	margin: 10px auto 0 auto;
+}
+
+/*面板颜色*/
+.myHeader{
+	font-size: 14px;
+	border-top: 0;
+	background: #1558a6;
+	padding-left: 21px;
+	height: 19px;
+}
+.panel-title{
+	color: #FFF;
+}
+#reportList li{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	display: inline-block;
+	margin-left: 29px;
+}
+#reportList li:first-child{
+	margin-left: 51px;
+}
+
+/*表格文字居中*/
+#repairListDetail ul{
+	margin-top: 20px;
+}
+#repairListDetail{
+	width:780px;
+	float:left;
+}
+#repairListDetail ul li {
+	margin-bottom: 10px;
+}
+.inputGroup {
+	display: inline-block;
+}
+.inputGroup label{
+	float: left;
+    width: 70px;
+    line-height: 20px;
+    padding-right: 5px;
+    text-align: right;
+}
+
+
+
+.complainInputs{
+	width:125px;
+	border:1px solid #95B8E7;
+	border-radius:3px;
+}

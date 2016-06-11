@@ -1,0 +1,140 @@
+body{
+	color: #fff;
+	font-family: 'microsoft yahei';
+	background-color: #1558A6;
+}
+/*----------------------登陆和注册界面的样式设计----------------------*/
+.register-wrapper{  /*注册界面wrapper*/
+	width: 705px;
+	height: 480px;
+	position: absolute;
+	top: 10%;
+	left: 34%;
+}
+.login-wrapper{ /*登录界面wrapper*/
+	width: 360px;
+	height: 200px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%, -65%);
+}
+
+.register-wrapper h1, /*注册界面h1*/
+.login-wrapper h1{  /*登陆界面h1*/
+	font-size: 32px;
+	margin-bottom: 15px;
+	margin-left: 120px;
+}
+.register-form label, /*注册界面label*/
+.login-form label{    /*登陆界面label*/
+	margin-right: 5px;
+}
+
+.register-form input,  /*注册界面input*/
+.login-form input,	   /*登陆界面input*/
+.register-form select{  /*登陆界面select*/   
+	width: 345px;
+	height: 35px;
+	padding-left: 8px;
+	margin-bottom: 10px;
+}
+.register-form input{   /*注册界面input*/
+	width: 300px;
+	height: 32px;
+}
+.register-form select{  /*注册界面select*/
+	width: 312px;
+	height: 32px;
+}
+.register-form input.code{  /*注册界面input*/
+	width: 82px;
+	margin-left: 16px;
+}
+a.imgchange{
+	color:#fff;
+}
+
+.register-form ul li:last-child{
+	margin-top : -12px;
+}
+
+.register-wrapper .submit,  /*注册界面submit*/
+.login-wrapper .submit{    /*登陆界面submit*/
+	width: 358px;
+	height: 35px;
+	padding: 0;
+	color: #fff;
+	font-size: 20px;
+	border: 1px solid #2D8BEF;
+	background-color: #2D8BEF;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+.register-wrapper .submit{  /*注册界面submit*/
+	width: 58%;
+	height: 35px;
+}
+.register{  /*注册界面跳转a连接*/
+	/*TODO*/
+}
+.login{    /*注册界面跳转a连接*/
+	color: #ddd;
+	display: inline-block;
+	margin-left: 265px;
+}
+.register-wrapper .login{  /*注册界面跳转a连接*/
+	margin-right: 63px;
+}
+.register a,
+.login a{
+	color: #fff;
+} 
+address{  /*登陆界面的版权和责任声明*/
+	font-size: 10px;
+	text-align: center;
+	margin-top: 35%;
+}
+
+
+/*----------------------表单验证的样式的设计----------------------*/
+
+.register-wrapper span:not(.login){
+	font-size: 10px;
+	padding-left: 30px;
+}
+.register-wrapper span#register-code{
+	padding-left: 240px;
+	
+}
+.register {
+	float : right;
+}
+.error,
+.success,
+.tips{
+	position: relative;
+    left: -30px;
+}
+.error,
+.code-error{
+	background: url(../images/tip.png) no-repeat center left;
+}
+.success,
+.code-success{
+	background: url(../images/ok_win8.png) no-repeat center left;
+}
+.code-tips{
+	position: relative;
+    left: -180px;
+}
+.code-error{
+	position : relative;
+	left : -215px;
+}
+.captchaImage{
+	height:37px;
+	position : relative;
+	top : 15px;
+}
+

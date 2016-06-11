@@ -1,0 +1,20 @@
+[{
+	"id" : 1,
+	"repair_category" : "硬件报修",
+	"repair_project" : "11" ,
+	"repair_detail" :  "11",
+	"propertyCode" : "11",
+	"repair_place" : "11",
+	"repair_content" : "11",
+	"accessoriesName" : "11"
+},
+{   
+	"id" :2,
+    "repair_category" : "软件报修",
+	"repair_project" : "22",
+	"repair_detail" : "22",
+	"propertyCode" : "22",
+	"repair_place" : "22",
+	"repair_content" : "22",
+	"accessoriesName" : "22"
+}]

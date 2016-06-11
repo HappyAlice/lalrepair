@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/*-------------------------------样式重置--------------------------------------*/
+*{border:none;padding:0px;margin:0px;list-style:none;}
+body{font-family:"微软雅黑";font-size:12px;background:#FFF;}
+div,form,p,ul,ol,dl,li,dt,dd{display:block;overflow:hidden;}
+h1,h2,h3,h4,h5,h6,h7,h8,h9{display:block;overflow:hidden;}
+a {color:#FFF;text-decoration:none;cursor:pointer;}
+a:hover {color:#FFF;text-decoration:none;}
+ul > li { list-style: none;float: left;}
+
+
+/*-------------------------------公用样式-------------------------------------*/
+.wapContent {
+    width: 950px;
+    float: none;
+    margin: 10px auto 0px auto;
+}
+
+.wapContent .wapContent_title {
+    width: auto;
+    background: #1558a6;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+    font-size: 14px;
+    color: #FFF;
+}
+
+.con_form ul {
+    padding: 10px 20px;
+    height: auto;
+}
+
+.con_form ul li {
+    float: left;
+    margin: 10px 10px 0px 0px;
+}
+
+
+.base-input {
+    height: 20px;
+    border: 1px solid #95b8e7;
+    margin: 0;
+    padding: 0px 3px;
+    line-height: 20px;
+    vertical-align: middle;
+    border-radius: 5px;
+    font-family: '微软雅黑';
+}
